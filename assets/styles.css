@@ -670,7 +670,7 @@ main {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body {
 
         justify-content: start;
@@ -683,6 +683,7 @@ main {
 
         width: 100dvw;
         height: auto;
+        padding-bottom: 30px;
 
 
     }
@@ -722,7 +723,7 @@ main {
             justify-content: left;
             align-items: center;
             font-size: 1em;
-            width: 210px;
+            width: 160px;
 
         }
 
@@ -755,24 +756,26 @@ main {
             & .content-description {
                 width: 90dvw;
                 height: auto;
+                gap: 0px;
 
                 & h1 {
-                    font-size: 1em;
+                    font-size: 1.8em;
                     text-align: center;
 
                 }
 
                 & h3 {
-                    font-size: 0.6em;
+                    font-size: 0.8em;
                     text-align: center;
+                    padding-bottom: 10px;
 
                 }
 
                 & p {
                     width: 90dvw;
-                    font-size: 0.7em;
+                    font-size: 0.9em;
                     line-height: 12px;
-                    padding-top: 10px;
+                    padding-top: 0px;
                     font-weight: 500;
                     padding-bottom: 10px;
 
@@ -893,7 +896,7 @@ main {
 
             & .line {
                 width: 5px;
-                height: auto;
+                height: 95%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -909,7 +912,7 @@ main {
 
                 & #linha {
                     width: 3px;
-                    height: 120px;
+                    height: 100%;
                     border: 1px solid var(--color1);
                     background-color: var(--color1);
                     border-radius: 0px 0px 3px 3px;
@@ -945,7 +948,7 @@ main {
                         align-items: center;
                         justify-content: left;
                         font-family: "Google Sans Code", monospace;
-                        font-size: 0.3em;
+                        font-size: 0.5em;
                         font-weight: 400;
 
                     }
@@ -953,7 +956,7 @@ main {
                     & h4 {
                         width: 84dvw;
                         height: auto;
-                        font-size: 0.5em;
+                        font-size: 0.65em;
                         display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -973,20 +976,22 @@ main {
         }
 
         & .main-projects {
-            width: 310px;
-            height: auto;
+            width: 95dvw;
+            height: 60dvw;
 
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            border-radius: 0px 0px 12px 12px;
+            padding: 10px 0px 10px 0px;
 
 
             & .slider-container {
                 position: relative;
                 overflow: hidden;
-                width: 300px;
-                height: 225px;
+                width: 90dvw;
+                height: 60dvw;
                 margin: 0 auto;
                 border-radius: 0px 0px 12px 12px;
 
@@ -997,8 +1002,8 @@ main {
 
 
                     & .project {
-                        min-width: 100%;
-                        height: 200px;
+                        min-width: 90dvw;
+                        height: 45dvw;
                         box-sizing: border-box;
 
 
@@ -1014,8 +1019,8 @@ main {
 
 
                         & .project-image {
-                            width: 120px;
-                            height: 200px;
+                            width: 40dvw;
+                            height: 45dvw;
 
                             border: 1px solid var(--color5);
                             border-right: none;
@@ -1028,8 +1033,8 @@ main {
                             gap: 10px;
 
                             & img {
-                                width: 110px;
-                                height: 110px;
+                                width: 37dvw;
+                                height: 30dvw;
                                 object-fit: cover;
                                 border-radius: 12px;
                             }
@@ -1042,8 +1047,8 @@ main {
                         }
 
                         & .project-description {
-                            width: 180px;
-                            height: 200px;
+                            width: 50dvw;
+                            height: 45dvw;
 
                             display: flex;
                             flex-direction: column;
@@ -1056,9 +1061,9 @@ main {
                             border-radius: 0px 0px 12px 0px;
 
                             & p {
-                                width: 160px;
+                                width: 45dvw;
                                 font-family: "Google Sans", sans-serif;
-                                font-size: 0.7em;
+                                font-size: 0.6em;
                                 line-height: 12px;
                                 text-align: justify;
                                 color: var(--corTextoCinza);
@@ -1100,7 +1105,7 @@ main {
 
                 & .slider-dots {
                     text-align: center;
-                    width: 420px;
+                    width: 95dvw;
                     height: 15px;
                     margin-top: 5px;
 
@@ -1141,8 +1146,10 @@ main {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 10px 0px 10px 0px;
 
-            gap: 15px;
+
+            gap: 10px;
 
             & h1 {
                 font-size: 1.2em;
@@ -1154,10 +1161,7 @@ main {
                 color: var(--color1);
             }
 
-            & strong {
-                font-weight: 600;
-                color: var(--color1);
-            }
+
 
             & a {
                 cursor: pointer;
@@ -1175,7 +1179,6 @@ main {
                     align-items: center;
                     justify-content: left;
                     gap: 5px;
-                    padding-left: 30px;
 
                     background-color: var(--ccolor4);
 
@@ -1269,3 +1272,4 @@ main {
     }
 
 }
+
